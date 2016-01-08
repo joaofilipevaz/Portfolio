@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/styling.css">
+    <!-- google fonts import https://www.google.com/fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+    <!-- Font Awesome import http://fortawesome.github.io/Font-Awesome/ -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <script src="js/slides.js"></script>
+    <!-- favicon support http://www.favicon-generator.org/ -->
+    <link rel="apple-touch-icon" sizes="57x57" href="imgs/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="imgs/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="imgs/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="imgs/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="imgs/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="imgs/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="imgs/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="imgs/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="imgs/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="imgs/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="imgs/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="imgs/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="imgs/favicon/favicon-16x16.png">
+    <link rel="manifest" href="imgs/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="imgs/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <!-- responsive Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio JV</title>
+</head>
+<body>
+<header class="flex-container">
+    <div class="flex-name">
+        <h2 id="name">João Filipe Vaz<br><nobr><p id="subname">Portfolio of University Projects - LEIM</p></nobr></h2>
+    </div>
+    <nav class="flex-box">
+        <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a>
+                <ul>
+                    <li id="hooverred" ><a href="portfolio.html#applications">Multimedia Applications </a></li>
+                    <li id="hooverblue" ><a href="portfolio.html#sw">Software Development</a></li>
+                    <li id="hoovergreen" ><a href="portfolio.html#games">Computer Games</a></li>
+                </ul>
+            </li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<section>
+    <h1 id="applications">Multimedia Applications</h1><br>
+    <article class="flex-container">
+        <figure class="flex-article">
+            <img src="imgs/janterender.png" alt="blender" style="width:304px;height:228px;">
+            <figcaption class="justify">
+                <h2 class="center">3d Car Design using Blender</h2>
+                Project developed for the Course Modelation of Virtual Environments. I fully model a 3d car
+                using Blender. I modeled individual items such as the tires, rims, optics, chassis then assembling
+                the individual objects into a whole. Then Lightening effects and materials to achieve a more consistent
+                look and feel.
+            </figcaption>
+        </figure>
+        <figure class="flex-article">
+            <img src="imgs/arduino.jpg" alt="arduino" style="width:304px;height:228px;">
+            <figcaption class="justify">
+                <h2 class="center">Multimedia Shop display</h2>
+                Using Arduino this project created a system to interact with the customer of a shop window.
+                The system detected the customer presence through LDR's and this created an visual and audio interaction
+                using Led patterns that followed a specific tune. At the same time a thermistor connected to a RGB led
+                represented the temperature. After the customer went away the led's would return to a random
+                set of patterns in order to raise customer's curiosity.
+            </figcaption>
+        </figure>
+        <figure class="flex-article">
+            <img src="imgs/html+css.PNG" alt="webdesign" style="width:304px;height:228px;">
+            <figcaption class="justify">
+                <h2 class="center">Personal Portfolio Website</h2>
+                Using HMTL5 + CSS3 + Javascript created a personal portfolio Webpage to
+                display the projects developed during the Degree Programme
+            </figcaption>
+        </figure>
+    </article>
+</section>
+<section>
+    <h1 id="sw">Software Development</h1>
+    <article class="flex-container">
+        <figure class="flex-article">
+            <img src="imgs/portal%20academico%20isel.PNG" alt="portal" style="width:304px;height:228px;">
+            <figcaption class="justify">
+                <h2 class="center">Isel Academic Portal</h2>
+                Project developed for the Course Information Technologies. Reproduction of the Isel's Academic Portal with a basic XHTML+CSS structure supported by Information
+                stored in XML with XSD validation.
+            </figcaption>
+        </figure>
+        <figure class="flex-article">
+            <img src="imgs/scholar_manager.PNG" alt="Scholar Manager" style="width:304px;height:228px;">
+            <figcaption class="justify">
+                <h2 class="center">Scholar Manager - Text Based Management Software</h2>
+                Using Java, we created a basic Scholar manager Software with the scope of modelling the school entities
+                (Professors, Students, courses, degrees) and their attributes. The SW also displayed the
+                relations between these agents (professors responsible for courses,
+                List of students enrolled in courses, etc..). The Software responded to text commands on command line
+                as first MS-DOS, Unix and AS400 applications used to.
+            </figcaption>
+        </figure>
+    </article>
+</section>
+<section>
+    <h1 id="games">Computer Games</h1>
+    <article class="flex-container">
+        <figure class="flex-article">
+            <video width="304" height="228" autoplay loop>
+                <source src="videos/glugglug.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <figcaption class="justify">
+                <h2 class="center">Glug-Glug ZX Spectrum remake using Pygame</h2>
+                Remake of 1984 ZX Spectrum Game Glug-Glug with a Twist. The diver is attached to a Transtejo "Cacilheiro".
+                The game was developed in Python using <a href="http://www.pygame.org/">Pygame</a> mod.
+            </figcaption>
+        </figure>
+        <figure class="flex-article">
+
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Sokoban_ani.gif" alt="sokoban" style="width:304px;height:228px;">
+            <figcaption class="justify">
+                <h2 class="center">Sokoban Java Remake</h2>
+                Remake of <a href="imgs/File-Sokoban_ani.gif">Sokoban</a> 1981 Game using Java standard API, namely Swing.
+                Sokoban means literally warehouse keeper. Original game pictures were used.
+            </figcaption>
+        </figure>
+    </article>
+</section>
+
+<footer>
+    <p>© João Filipe Vaz 2015. Webpage designed for Multimedia Contents Design Course of LEIM - ISEL 2015</p>
+</footer>
+</body>
+</html>

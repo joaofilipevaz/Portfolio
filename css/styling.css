@@ -1,0 +1,206 @@
+/* tags base */
+a {
+    text-decoration: none;
+}
+body{
+    background-color: hsla(0, 0%, 13%, 1);
+    color: hsla(0, 0%, 75%, 1);
+    font-family: 'Ubuntu', sans-serif;
+}
+footer {
+    clear:both;
+    text-align:center;
+}
+/* barra nav */
+nav ul {
+    margin: 0;
+    z-index:1000;
+}
+nav ul ul{
+    display: none;
+}
+nav ul li {
+    display:block;
+    float:left;
+    padding:3px 15px;
+}
+nav ul li a {
+    color: hsla(0, 0%, 75%, 1);
+    text-transform: uppercase;
+    font-size: 4.5vmin;
+    transition: all .25s ease;
+}
+nav ul li a:hover {
+    color: hsla(24, 100%, 43%, 1);
+}
+nav ul li:hover > ul {
+    display: block;
+}
+nav ul li:hover > ul { margin: 0; padding: 0;}
+nav ul li:hover > ul li { float: none; display: block;}
+nav ul li:hover > ul li a { min-width: 500px; }
+nav ul li {position: relative;}
+nav ul li ul {position: absolute; top: 50px; left: 0; font-size: 0.65em;}
+
+#hooverred a:hover{color: hsla(341, 84%, 45%, 1);}
+#hooverblue a:hover{color: hsla(199, 100%, 30%, 1);}
+#hoovergreen a:hover{color: hsla(164, 100%, 28%, 1);}
+
+/* id's */
+
+#name {
+    font-size: 4vmax;
+    margin-left:10%;
+    margin-top:1.5%;
+    margin-bottom:0;
+    padding: 0;
+    border: 0;
+    max-width: 100%;
+}
+#subname {
+    font-size: 2vmax;
+    margin-left:27%;
+    margin-top:2%;
+    max-width: 100%;
+}
+#areaboxred{
+    -webkit-flex: 1;
+    flex: 1;
+    background-color: hsla(341, 84%, 45%, 1);
+    border-radius: 15px 50px 30px;
+    margin: 2.5%;
+    -webkit-align-self: center;
+    font-size: 2em;
+    text-align: center
+}
+#areaboxblue{
+    -webkit-flex: 1;
+    flex: 1;
+    background-color: hsla(199, 100%, 30%, 1);
+    border-radius: 15px 50px 30px;
+    margin: 2.5%;
+    -webkit-align-self: center;
+    font-size: 2em;
+    text-align: center
+}
+#areaboxgreen{
+    -webkit-flex: 1;
+    flex: 1;
+    background-color: hsla(164, 100%, 28%, 1);
+    border-radius: 15px 50px 30px;
+    margin: 2.5%;
+    -webkit-align-self: center;
+    font-size: 2em;
+    text-align: center
+}
+#applications{
+    font-size: 2em;
+    margin-left: 15%;
+    background-color: hsla(341, 84%, 45%, 1);
+}
+#sw{
+    font-size: 2em;
+    margin-left: 15%;
+    background-color: hsla(199, 100%, 30%, 1);
+}
+#games{
+    font-size: 2em;
+    margin-left: 15%;
+    background-color: hsla(164, 100%, 28%, 1);
+}
+/* Prevents slides from flashing */
+#slides {
+    display:none;
+    height: 100%;
+    width: 65%;
+    z-index:1;
+    margin: auto;
+}
+.slidesjs-control img{
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+#cv{
+    height: 600px;
+    width: 70%;
+    border: 15px solid hsla(199, 100%, 30%, 1);
+    margin-top: 0;
+}
+
+#contacts{
+    -webkit-flex: 1;
+    flex: 1;
+}
+#myfoto{
+    -webkit-flex: 1;
+    flex: 1;
+}
+
+/* classes */
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    -webkit-align-items: center;
+    align-items: center ;
+}
+.flex-box{
+    -webkit-flex: 1;
+    flex: 1;
+    text-align: center;
+
+}
+.flex-article{
+    -webkit-flex: 1;
+    flex: 1;
+    margin-left: 2%;
+    margin-right: 2%;
+    text-align: center;
+}
+#flex-contacts {
+    display: -webkit-inline-flex;
+    display: inline-flex;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.flex-name {
+    -webkit-flex: 1;
+    flex: 1;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-items: flex-start;
+    align-items: flex-start ;
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
+}
+.center{
+    text-align: center;
+}
+.justify{
+    text-align: justify;
+}
+
+/* unvisited link */
+a:link {
+    color: inherit;
+}
+/* visited link */
+a:visited {
+    color: inherit;
+}
+/* mouse over link */
+a:hover {
+    color: hsla(0, 0%, 0%, 1);
+}
+/* selected link */
+a:active {
+    color: inherit;
+}
